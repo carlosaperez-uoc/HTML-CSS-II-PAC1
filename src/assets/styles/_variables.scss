@@ -5,8 +5,11 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$mqMinWidth: 700px;
+$granada-corporate: #AB2A3E;
+$granada-masterbrand: #AB2A3E;
+$granada-bg: color.scale($granada-masterbrand, $lightness: 70%);
+$contentMinWidth: 360px;
+$contentMaxWidth: 1200px;
 
-$mqMinWidth: 420px;
+

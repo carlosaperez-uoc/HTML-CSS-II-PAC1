@@ -1,0 +1,3 @@
+@function flex-width($num-cols){
+    @return 100% / $num-cols;
+}
